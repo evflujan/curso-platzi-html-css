@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+
+  body{
+    width: 100vw;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+  .main_section{
+    padding: 2%;
+    height: 30%;
+    margin-bottom: 10%;
+  }
+  .products{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+  }
+  .product{
+    display:inherit;
+    width: auto;
+  }
+  .content{
+    margin: 0;
+    margin-left: 30%;
+    margin-bottom: 15%;
+    margin-top: -10%;
+  }
+
+  .beneficios{
+    margin: 0;
+    width:auto;
+    height: auto;
+    display: block;
+    margin: 10%;
+  }
+  .beneficio{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  .mentions{
+    height: auto;
+    margin: 10%;
+  }
+  .mentions-group{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+  }
+  .mention{
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 0;
+    box-shadow: var(--shadow-box);
+  }
+  .img-mention img{
+    width: 30vw;
+  }
+
+}

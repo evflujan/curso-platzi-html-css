@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* -----------------------------Variables */
+:root{
+/* Colores   */
+--green-color:#7acc2d;
+--white-color:white;
+--black-color:#313337;
+--shadow-color:#c1bcbc;
+/* Tipografía */
+--normal:12px;
+/* Espaciado */
+--space:10px;
+/* Box Shadow */
+--shadow-box:0 0 10px var(--shadow-color);
+}
+
+
+/* -----------------------------Variables */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;}
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+.brand_image{
+  padding: 2%;
+}
+
+.nav_options{
+  margin-right: 2%;
+}
+
+nav ul{
+  display:flex;
+}
+
+nav li{
+  padding-left: 3%;
+  list-style: none;
+
+}
+
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+.container{
+  margin: 0;
+}
+.title h1{
+  margin: 50%;
+}
+.content{
+  margin: 0 0 5% 10%;
+}
+.img_content{
+  text-align: center;
+}
+.text_content{
+  margin: 4%;
+}
+
+.footer{
+  background-color: black;
+  color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p{
+  font-size: var(--normal);
+  padding: 10px 20px;
+}
+
+.footer a{
+  font-size: var(--normal);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover{
+  color: yellow;
+}
+footer p:hover{
+  color: yellow;
+}

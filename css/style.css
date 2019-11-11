@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.gifs {
+  border: 3px solid yellow;
+  background-color: grey;
+  width: 500px;
+  height: auto;
+}
+.gifs img {
+  margin: 0;
+  padding: 0;
+  border: 1px solid green;
+  width: 150px;
+  height: auto;
+}
